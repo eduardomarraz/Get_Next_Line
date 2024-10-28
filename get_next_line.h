@@ -6,15 +6,15 @@
 /*   By: eduamart <eduamart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 12:52:52 by eduamart          #+#    #+#             */
-/*   Updated: 2024/10/25 12:38:43 by eduamart         ###   ########.fr       */
+/*   Updated: 2024/10/28 17:21:42 by eduamart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_H 
+# define GET_NEXT_LINE_H 
 
-# ifndef BUFFER_SIZE
-#	define BUFFER_SIZE 42
+# ifndef BUFFER_SIZE 	  // Significa "si no está definido", entonces asegura...
+#	define BUFFER_SIZE 42 // asegura que BUFFER_SIZE solo se defina si no fue definido anteriormente.
 # endif
 
 # include <stdlib.h>

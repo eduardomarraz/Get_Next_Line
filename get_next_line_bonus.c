@@ -6,7 +6,7 @@
 /*   By: eduamart <eduamart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 15:24:06 by eduamart          #+#    #+#             */
-/*   Updated: 2024/10/24 15:34:50 by eduamart         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:51:18 by eduamart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,7 +94,7 @@ char	*read_from_file(int fd, char *str)
 
 char	*get_next_line(int fd)
 {
-	static char	*str[FD_MAX];
+	static char	*str[FD_MAX]; // arreglo unidimensional de punteros
 	char		*line;
 
 	if (fd < 0 || BUFFER_SIZE <= 0)
